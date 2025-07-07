@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detail Produk - Sepatu Sneakers</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    footer {
+      background-color: #EE4D2D;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header dan Navbar -->
+  <header>
+    <h1 class="text-center py-3 text-white" style="background-color: #EE4D2D">TOKO SEPATUKU</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">AZFASTORE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="produkDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PRODUK
+            </a>
+            <div class="dropdown-menu" aria-labelledby="produkDropdown">
+              <a class="dropdown-item" href="produk.html">Daftar Produk</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="produk1.html">Sepatu Sneakers</a>
+              <a class="dropdown-item" href="produk2.html">Sepatu Formal</a>
+              <a class="dropdown-item" href="produk3.html">Sepatu Olahraga</a>
+              <a class="dropdown-item" href="produk4.html">Sepatu Boots</a>
+              <a class="dropdown-item" href="produk5.html">Sepatu Casual</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="kontak.html">KONTAK</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Konten Produk -->
+  <main class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="bg/p9.png" alt="Sepatu Sneakers" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Sepatu Sneakers</h2>
+        <h4 class="text-danger">Rp300.000</h4>
+        <p>Sepatu sneakers yang nyaman untuk aktivitas sehari-hari. Desain modern dan bahan berkualitas membuat kaki tetap nyaman sepanjang hari.</p>
+        <button class="btn btn-danger">Beli Sekarang</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Selalu di Bawah -->
+  <footer>
+    <p>azminatin56@gmail.com | +6281564633026| Jl. cisinga,Kp.nangkaleah kab.tasikmalaya</p>
+  </footer>
+
+</body>
+</html>
